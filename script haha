@@ -16,7 +16,8 @@ Section:NewKeybind("P to toggle", "self-explanatory", Enum.KeyCode.P, function()
 end)
 local Tab = Window:NewTab("Rate my Avatar")
 local Section = Tab:NewSection("removed useless")
-Section:NewButton("Loop get stopsign", "balls", function()      	while true do
+Section:NewButton("Loop get stopsign", "balls", function()
+while true do
 task.wait (0)
 local args = {
     [1] = 17290248
@@ -26,7 +27,8 @@ game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args)
 end
     print("Clicked")
 end)
-Section:NewButton("Loop get sword", "Get knight", function()      	while true do
+Section:NewButton("Loop get sword", "Get knight", function()
+while true do
 task.wait (0) 
 local args = {
     [1] = "ClassicSword"
