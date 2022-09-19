@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Butter's Scripthub", "DarkTheme")
 local Tab = Window:NewTab("Universal")
 local Section = Tab:NewSection("Contact Butter_Cat#0139 to give them more ideas")
-Section:NewButton("Infinite Yield", "too lazy to put infp", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+Section:NewButton("Infinite Yield", "too lazy to put info", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     print("Clicked")
 end)
 Section:NewButton("Fates Admin", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
@@ -16,26 +16,10 @@ Section:NewKeybind("P to toggle", "self-explanatory", Enum.KeyCode.P, function()
 end)
 local Tab = Window:NewTab("Rate my Avatar")
 local Section = Tab:NewSection("removed useless")
-Section:NewButton("Loop get stopsign", "balls", function()
-while true do
-task.wait (0)
-local args = {
-    [1] = 17290248
-}
-
-game:GetService("ReplicatedStorage").RequestGamepassTool:FireServer(unpack(args))
-end
+Section:NewButton("Loop get stopsign", "balls", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdrtrayblox3/funny-gui/main/stopsign", true))()
     print("Clicked")
 end)
-Section:NewButton("Loop get sword", "Get knight", function()
-while true do
-task.wait (0) 
-local args = {
-    [1] = "ClassicSword"
-}
-
-game:GetService("ReplicatedStorage").RequestTool:FireServer(unpack(args))
-end
+Section:NewButton("Loop get sword", "Get knight", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdrtrayblox3/funny-gui/main/sword", true))()
     print("Clicked")
 end)
 Section:NewButton("Rick Roll booth", "plays rick roll", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/typical-overk1ll/scripts/main/RateMyAvatarRickRoll", true))()
