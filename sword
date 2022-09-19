@@ -1,0 +1,8 @@
+while true do
+task.wait (0) 
+local args = {
+    [1] = "ClassicSword"
+}
+
+game:GetService("ReplicatedStorage").RequestTool:FireServer(unpack(args))
+end
