@@ -8,6 +8,9 @@ end)
 Section:NewButton("Fates Admin", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
     print("Clicked")
 end)
+Section:NewButton("Fates Admin", "too lazy to put info", loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))();
+    print("Clicked")
+end)
 Section:NewButton("Backdoor Checker", "checks for exploitable viruses", function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
     print("Clicked")
 end)
