@@ -54,14 +54,13 @@ end)
 local Tab = Window:NewTab("Booga Booga")
 local Section = Tab:NewSection("Duping")
 Section:NewKeybind("Auto dupe", "Dupes for you", Enum.KeyCode.Q, function()
-	for i = 1,12 do
+for i = 1,12 do
 task.wait(0.5)
 local args = {
     [1] = {
         [1] = workspace:WaitForChild("Deployables"):WaitForChild("Chest"):WaitForChild("Reference")
     }
 }
-
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SwingTool"):FireServer(unpack(args))
 end
 local args = {
@@ -69,6 +68,5 @@ local args = {
     [2] = math.huge,
     [3] = true
 }
-
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("StorageSwap"):FireServer(unpack(args))
 end)
