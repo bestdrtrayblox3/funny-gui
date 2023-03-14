@@ -56,7 +56,7 @@ local Section = Tab:NewSection("Duping")
 Section:NewButton("Dupe", "Dupe", function()
 Section:NewKeybind("Auto dupe", "Dupes for you", Enum.KeyCode.KeypadFive, function()
 for i = 1,12 do
-task.wait(0.5)
+task.wait(0.34)
 local args = {
     [1] = {
         [1] = workspace:WaitForChild("Deployables"):WaitForChild("Chest"):WaitForChild("Reference")
