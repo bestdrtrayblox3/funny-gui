@@ -53,6 +53,7 @@ Section:NewButton("Cryptonic Hub", "works for dahood", function()loadstring(game
 end)
 local Tab = Window:NewTab("Booga Booga")
 local Section = Tab:NewSection("Duping")
+Section:NewButton("Dupe", "Dupe", function()
 Section:NewKeybind("Auto dupe", "Dupes for you", Enum.KeyCode.Q, function()
 for i = 1,12 do
 task.wait(0.5)
@@ -69,4 +70,5 @@ local args = {
     [3] = true
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("StorageSwap"):FireServer(unpack(args))
+end)
 end)
