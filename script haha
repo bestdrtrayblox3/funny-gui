@@ -70,5 +70,6 @@ local args = {
     [3] = true
 }
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("StorageSwap"):FireServer(unpack(args))
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("OpenStorage"):FireServer()
 end)
 end)
