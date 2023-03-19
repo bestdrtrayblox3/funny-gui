@@ -82,7 +82,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SwingTool"):FireServer(unpack(args))
 end
 end)
-Section:NewKeybind("Auto dupe", "Dupes for you", Enum.KeyCode.KeypadFive, function()
+Section:NewKeybind("Auto dupe iron box", "Dupes for you", Enum.KeyCode.KeypadSix, function()
 for i = 1,7 do
 task.wait(0.34)
 local args = {
