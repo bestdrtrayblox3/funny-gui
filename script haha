@@ -11,7 +11,7 @@ end)
 Section:NewButton("silent aim", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdrtrayblox3/funny-gui/main/silent%20aim"))();
     print("Clicked")
 end)
-Section:NewButton("Backdoor Checker", "checks for exploitable viruses", function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
+Section:NewButton("Dark Dex v3", "Dex Explorer", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
     print("Clicked")
 end)
 Section:NewKeybind("P to toggle", "self-explanatory", Enum.KeyCode.P, function()
