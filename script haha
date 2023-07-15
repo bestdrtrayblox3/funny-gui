@@ -8,10 +8,10 @@ end)
 Section:NewButton("Fates Admin", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
     print("Clicked")
 end)
-Section:NewButton("Nameless Admin", "too lazy to put info", function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-10833%22))()
+Section:NewButton("silent aim", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdrtrayblox3/funny-gui/main/silent%20aim"))();
     print("Clicked")
 end)
-Section:NewButton("silent aim", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdrtrayblox3/funny-gui/main/silent%20aim"))();
+Section:NewButton("Nameless Admin", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
     print("Clicked")
 end)
 Section:NewButton("Dark Dex v3", "Dex Explorer", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
