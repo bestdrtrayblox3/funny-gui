@@ -8,6 +8,9 @@ end)
 Section:NewButton("Fates Admin", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
     print("Clicked")
 end)
+Section:NewButton("Nameless Admin", "too lazy to put info", function()loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();"))();
+    print("Clicked")
+end)
 Section:NewButton("silent aim", "too lazy to put info", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/bestdrtrayblox3/funny-gui/main/silent%20aim"))();
     print("Clicked")
 end)
